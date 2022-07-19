@@ -1,0 +1,12 @@
+paths:
+  data: "data/raw/water_potability.csv"
+  model: "model/model.pkl"
+
+loglevel: INFO
+
+train:
+  seeds: 234
+  test_size: 0.2
+  imputer: "median"
+  n_split: 10
+

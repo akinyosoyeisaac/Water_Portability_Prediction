@@ -1,0 +1,11 @@
+stages:
+  model:
+    cmd: python scr/model.py --path=params.yaml
+    deps:
+    - data/raw/water_potability.csv
+    params:
+    - train
+    - paths
+    - loglevel
+    outs:
+    - model/model.pkl
