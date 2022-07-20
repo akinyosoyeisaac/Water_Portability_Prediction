@@ -1,12 +1,11 @@
 stages:
-  model:
+  train:
     cmd: python scr/model.py --path=params.yaml
     deps:
+    - scr/model.py
     - data/raw/water_potability.csv
-    - scr/model.py 
     params:
-    - train
     - paths
-    - loglevel
+    - train
     outs:
-    - models/model.pk
+    - models/mode.pk

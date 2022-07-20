@@ -1,6 +1,6 @@
 paths:
   data: "data/raw/water_potability.csv"
-  model: "models/model.pk"
+  model: "models/mode.pk"
 
 loglevel: INFO
 
