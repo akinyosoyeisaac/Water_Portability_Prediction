@@ -9,4 +9,4 @@ stages:
     - paths
     - loglevel
     outs:
-    - model/model.pk
+    - models/model.pk
