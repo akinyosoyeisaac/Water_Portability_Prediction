@@ -31,7 +31,7 @@ def train(config):
     logger = get_logger('TRAINING STAGE', log_level=config['loglevel'])
     
     logger.info('Loading data...')
-    df = pd.read_csv(config["path"]["data"])
+    df = pd.read_csv(config["paths"]["data"])
     logger.info('Data loaded into memory successfully...')
     
     
