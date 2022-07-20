@@ -59,7 +59,7 @@ def train(config):
     pipe_rf.fit(X_train, y_train, config)
     logger.info('model training successful...')
     
-    logger.info('saving the model to ' + config["path"]["model"] + "...")
+    logger.info('saving the model to ' + config["paths"]["model"] + "...")
     with open(config["paths"]["model"], "wb") as file:
         pk.dump(pipe_rf, file)
     logger.info('model successfully saved')
