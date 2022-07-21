@@ -3,6 +3,9 @@ paths:
   model: "models/model.pk"
   test_data: "data/test/test_data.csv"
   train_data: "data/train/test_data.csv"
+  confusion_matrix: report/visual/confusion_matrix.jpg
+  roc_curve: report/visual/rocauc_curve.jpg
+  metrics: report/metrics/metrics.json
 
 loglevel: INFO
 
