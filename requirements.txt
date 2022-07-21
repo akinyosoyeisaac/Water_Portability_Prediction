@@ -11,5 +11,8 @@ seaborn==0.11.1
 sklearn==0.0
 streamlit==1.11.0
 click<=8.0.4
+fastapi == 0.78.0
+gunicorn == 20.1.0
+uvicorn == 0.17.6
 # tensorflow==2.9.1
 # xgboost==1.6.1
