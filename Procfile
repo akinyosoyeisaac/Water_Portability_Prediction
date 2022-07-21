@@ -1,1 +1,1 @@
-web: python deployment/fastapi_app.py
+web: python -m deployment/water_pota_app.py
