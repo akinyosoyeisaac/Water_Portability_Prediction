@@ -1,1 +1,1 @@
-web: python -m deployment/water_pota_app.py
+web: python deployment/water_pota_app.py
