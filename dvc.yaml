@@ -8,4 +8,4 @@ stages:
     - paths
     - train
     outs:
-    - models/mode.pk
+    - models/model.pk
