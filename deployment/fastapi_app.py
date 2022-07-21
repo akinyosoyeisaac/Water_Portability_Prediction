@@ -62,4 +62,4 @@ async def prediction(pH_value: int = Form(gt=0, lt=15), Hardness: int = Form(), 
 
 
 if __name__ == "__main__":
-    uvicorn.run("fastapi_app:app", host="127.0.0.1", port=8000, root_path="./deployment")
+    uvicorn.run("fastapi_app:app", host="127.0.0.1", port=5000, root_path="./deployment")
