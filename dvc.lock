@@ -1,0 +1,30 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python scr/model.py --path=params.yaml
+    deps:
+    - path: scr/model.py
+      md5: ebc71be562bef12448a953eae1f8d147
+      size: 994
+    - path: data/raw/water_potability.csv
+      md5: 4224576f0267bf88902f87f0f6200967
+      size: 994
+    params:
+      params.yaml:
+        paths:
+          data: "data/raw/water_potability.csv"
+          model: "models/model.pk"
+          test_data: "data/test/test_data.csv"
+          train_data: "data/train/test_data.csv"
+          confusion_matrix: report/visual/confusion_matrix.jpg
+          roc_curve: report/visual/rocauc_curve.jpg
+          metrics: report/metrics/metrics.json
+        train:
+          seeds: 234
+          test_size: 0.2
+          imputer: "median"
+          n_split: 10
+    outs:
+    - path: models/model.pk
+      md5: 4224576f0267bf88902f87f0f6200967
+      size: 2908
