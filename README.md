@@ -56,11 +56,12 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 
 ## 📈 Results
 > Confusion Matrix
-> 
+
+
 <img src="report/visual/confusion_matrix.jpg" width="250" height="250">
->
+
 > ROC CURVE
-> 
+ 
 <img src="report/visual/rocauc_curve.jpg" width="250" height="250">
 
 
