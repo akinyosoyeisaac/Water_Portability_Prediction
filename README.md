@@ -51,9 +51,11 @@
 
 ## 👥 Contributors
 
-- Ogunjinmi
+- [Isaac Ayobami Ogunjinmi](https://github.com/akinyosoyeisaac)
 - Emma
+- [Erica Konadu Antwi](https://github.com/ericakonadu)
 - Mariam
+- Selasi Ayittah Randy
 - 
 - .....
 
