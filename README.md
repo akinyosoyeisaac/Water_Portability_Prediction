@@ -31,7 +31,6 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 - Selecting the Best Machine Learning Model
 - Making prediction with the Model
 - Deploying the Model
-- .....
 
 
 
