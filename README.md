@@ -10,7 +10,7 @@
  
 
 ##  ℹ️ Overview 
->  The goal of this project is to .....
+>  The goal of this project is to predict which water body is safe for drinking considering the properties of the water body.
 
 
  
