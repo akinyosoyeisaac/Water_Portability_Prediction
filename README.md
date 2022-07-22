@@ -4,9 +4,10 @@
 
 
 <p align="center">
-    <img width = "350" alt = "sc" class="center" src= "https://user-images.githubusercontent.com/42063516/180313604-1a94c8e5-706f-49be-b7a8-f87ad9521612.jpg" / >
+    <img width = "350" alt = "sc" class="center" src= "//user-images.githubusercontent.com/42063516/180429175-8dee1dca-852e-42bd-bf5f-f812ca543745.jpg" / >
     
 </p>
+ 
  
 
 ##  ℹ️ Overview 
@@ -48,6 +49,8 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 -
 - .....
 
+## 📈 RESULTS
+
 
 
 ## 👥 Contributors
@@ -58,7 +61,7 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 - Mariam
 - Tcharrison
 - Mariam
-- Selasi Ayittah Randy
+- [Selasi Ayittah Randy](https://github.com/Selasi3)
 
 ## 📖 Further reading
 
