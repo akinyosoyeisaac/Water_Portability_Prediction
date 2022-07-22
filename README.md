@@ -25,7 +25,9 @@
 - Exploratory Data Analysis of the Dataset
 - Feature Engineering
 - Building Machine Learning Model
-
+- Selecting the Best Machine Learning Model
+- Making prediction with the Model
+- Deploying the Model
 - .....
 
 
