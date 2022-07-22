@@ -74,6 +74,7 @@ def main():
 def sidebar():
     with st.sidebar:
         st.subheader("Contributors, Github Link")
+        st.write("[Mariam CL](https//github.com/mariam-cl)")
         st.markdown("""
                     1. <a href="https//github.com/akinyosoyeisaac"> Ogunjinmi Isaac </a> 
                     2. [Erica Konadu Antwi](https//github.com/ericakonadu)
