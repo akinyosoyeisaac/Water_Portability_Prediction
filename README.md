@@ -13,9 +13,9 @@
  
 
 ##  ℹ️ Overview 
->  The goal of this project is to predict which water body ispotable for use considering the properties of the water body.
+>  The goal of this project is to predict which water body is potable for use considering the properties of the water body.
 >  Water quality refers to the chemical, physical and biological characteristics of water based on the standards of its usage. 
-As lack of access to fresh water has becoming increasing, with rapid population growth and climate change taking place Esp in Africa countries. Which will have a severe impact on different sector of the socio-economic ranging from health, education, agriculture, productivity, sustainable development. Hence, this project seek to drive a position change by using water quality historical data to predict whether the quality of water is suitable for human consumption or not or for other activities such as agriculture etc.
+As lack of access to fresh water has becoming increasing, with rapid population growth and climate change taking place especially in Africa countries. Which will have a severe impact on different sector of the socio-economic ranging from health, education, agriculture, productivity, sustainable development. Hence, this project seek to drive a position change by using water quality historical data to predict whether the quality of water is suitable for human consumption or not or for other activities such as agriculture etc.
 
 
  
