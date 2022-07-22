@@ -54,7 +54,7 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 -
 - .....
 
-## 📈 RESULTS
+## 📈 Results
 -
 -
 -
@@ -75,6 +75,6 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 
 -  <a href="references\metadata.md"> Metadata </a>
 -  [project repro](https://github.com/akinyosoyeisaac/Water_Portability_Prediction)
-- [preject website(fastapi)](https://water-potability-pred-01.herokuapp.com/docs#/default/prediction_predict_post)
-- [preject website(streamlit)](https://akinyosoyeisaac-water-portabili-deploymentwater-pota-app-shb41p.streamlitapp.com/)
+- [project website(fastapi)](https://water-potability-pred-01.herokuapp.com/docs#/default/prediction_predict_post)
+- [project website(streamlit)](https://akinyosoyeisaac-water-portabili-deploymentwater-pota-app-shb41p.streamlitapp.com/)
 
