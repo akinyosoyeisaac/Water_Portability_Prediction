@@ -14,8 +14,7 @@
 
 ##  ℹ️ Overview 
 >  The goal of this project is to predict which water body is potable for use considering the properties of the water body.
->  Water quality refers to the chemical, physical and biological characteristics of water based on the standards of its usage. 
-As lack of access to fresh water has becoming increasing, with rapid population growth and climate change taking place especially in Africa countries. Which will have a severe impact on different sector of the socio-economic ranging from health, education, agriculture, productivity, sustainable development. Hence, this project seek to drive a position change by using water quality historical data to predict whether the quality of water is suitable for human consumption or not or for other activities such as agriculture etc. 
+>  Water quality refers to the chemical, physical and biological characteristics of water based on the standards of its usage. Lack of access to fresh water is increasing with rapid population growth, and climate change taking place especially in Africa countries. This has  a severe impact on the different sectors of the socio-economic growth ranging from health, education, agriculture, productivity, sustainable development. Hence, this project seeks to drive a position change by using water quality historical data to predict whether the quality of water is suitable for human consumption or not or for other activities such as agriculture etc. 
 > Data on water ph, hardness, solids, chloramines, sulfate, conductivity, organiccarbon, trihalomethanes, turbidity were used in predicting its potability.
 
 > The dataset used in this project was taken from [Kaggle](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
@@ -71,10 +70,10 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 ## 👥 Contributors
 
 - [Isaac Ayobami Ogunjinmi](https://github.com/akinyosoyeisaac)
-- [Emmanuel Adu Saah](https://github.com/kweku-annan)
+- Emma
 - [Erica Konadu Antwi](https://github.com/ericakonadu)
-- [Mariam](https://github.com/mariam-cl)
-- [Tcharrison](https://github.com/tcharrisson)
+- Mariam
+- Tcharrison
 - Mariam
 - [Selasi Ayittah Randy](https://github.com/Selasi3)
 
