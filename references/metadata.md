@@ -1,8 +1,24 @@
 
 # METADATA
 
+[Data Source](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
 
-- [x] <b> About the features </b>
+<h4> Addition Info </h4>
+
+> Dataset statistics
+
+|items                         |   values
+|------------------------------|------------
+|Number of variables           |	10
+|Number of observations        |	3276
+|Missing cells                 |	1434
+|Missing cells (%)             |	4.4%
+|Duplicate rows                |    0
+|Duplicate rows (%)            |	0.0%
+|Total size in memory          |	256.1 KiB
+|Average record size in memory |	80.0 B
+
+- [x] <b> About The Data Attributes </b>
 
 ### pH value:
 > PH is an important parameter in evaluating the acid–base balance of water. It is also the indicator of acidic or alkaline condition of water status. WHO has recommended maximum permissible limit of pH from 6.5 to 8.5. The current investigation ranges were 6.52–6.83 which are in the range of WHO standards.
