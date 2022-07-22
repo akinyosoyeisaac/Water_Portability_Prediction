@@ -60,7 +60,8 @@
 
 ## 📖 Further reading
 
--  
--  
-- .....
+-  <a href="references\metadata.md"> Metadata </a>
+-  [project repro](https://github.com/akinyosoyeisaac/Water_Portability_Prediction)
+- [preject website(fastapi)](https://water-potability-pred-01.herokuapp.com/docs#/default/prediction_predict_post)
+- [preject website(streamlit)](https://akinyosoyeisaac-water-portabili-deploymentwater-pota-app-shb41p.streamlitapp.com/)
 

@@ -74,13 +74,14 @@ def main():
 def sidebar():
     with st.sidebar:
         st.subheader("Contributors, Github Link")
-        (st.markdown("""
-                    1. [Ogunjinmi Isaac](https//github.com/akinyosoyeisaac)
+        st.markdown("""
+                    1. <a href="https//github.com/akinyosoyeisaac"> Ogunjinmi Isaac </a> 
                     2. [Erica Konadu Antwi](https//github.com/ericakonadu)
                     3. [Mariam CL](https//github.com/mariam-cl)
                     4. [Selasi Ayittah](https//github.com/Selasi3)
                     5. [Tcharrison](tcharrisson)
-                    """))
+                    """, unsafe_allow_html=True)
+        
         st.subheader("Project Link")
         st.markdown("[Project Link](https//github.com/akinyosoyeisaac/Water_Portability_Prediction)")
         st.subheader("ABOUT")
