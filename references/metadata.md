@@ -1,7 +1,7 @@
 
 # METADATA
 
-[Data Source](https://ww.kaggle.com/datasets/adityakadiwal/water-potability)
+[Data Source](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
 
 <h4> Addition Info </h4>
 
