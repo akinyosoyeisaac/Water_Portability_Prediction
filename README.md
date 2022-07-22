@@ -52,13 +52,13 @@ As lack of access to fresh water has becoming increasing, with rapid population 
 
 ## 👥 Contributors
 
-- Ogunjinmi
+- [Isaac Ayobami Ogunjinmi](https://github.com/akinyosoyeisaac)
 - Emma
+- [Erica Konadu Antwi](https://github.com/ericakonadu)
 - Mariam
-- Erica
-- Selasi
 - Tcharrison
 - Mariam
+- Selasi Ayittah Randy
 
 ## 📖 Further reading
 
