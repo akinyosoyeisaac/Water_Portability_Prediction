@@ -1,1 +1,1 @@
-web: streamlit run deployment/water_pota_app.py
+web: sh setup.sh && streamlit run deployment/water_pota_app.py
