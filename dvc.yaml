@@ -1,8 +1,22 @@
 stages:
+
+  train_test_split:
+    cmd: python scr/train_test_split.py --path=params.yaml
+    deps:
+    - scr/train_test_split.py
+    - data/raw/water_potability.csv
+    params:
+    - paths
+    - train
+    outs:
+    - "data/test/test_data.csv"
+    - "data/test/test-set"
+    - "data/train/train-set"
+
   training:
     cmd: python scr/training.py --path=params.yaml
     deps:
-    - scr/model.py
+    - scr/training.py
     - data/raw/water_potability.csv
     params:
     - paths
