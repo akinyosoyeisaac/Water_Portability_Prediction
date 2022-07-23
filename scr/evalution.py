@@ -19,7 +19,7 @@ def confusion_matrix(X_test, y_test, config, pipe_rf):
     plt.title("Confusion Matrics".upper(), size=20, weight="bold")
     plt.savefig(config["paths"]["confusion_matrix"])
     
- def roc_curve(pipe_rf, X_test, y_test, config):   
+def roc_curve(pipe_rf, X_test, y_test, config):   
     fig, ax = plt.subplots(figsize=(7,7))
     RocCurveDisplay.from_estimator(estimator=pipe_rf, X=X_test, y=y_test, pos_label=1, name="RF", ax=ax)
     plt.title("ROC using Random Forest".upper(), size=20, weight="bold")
