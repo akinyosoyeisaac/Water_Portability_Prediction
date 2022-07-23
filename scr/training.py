@@ -1,10 +1,7 @@
-import pandas as pd
-from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
-from imblearn.over_sampling import SMOTE
 import pickle as pk
 import yaml
 from argparse import ArgumentParser
@@ -37,7 +34,7 @@ def train(config):
     
     model_rf = RandomForestClassifier(random_state=config["train"]["seeds"])
     pipe_rf = make_pipeline(imputer, scaler, model_rf)
-    pipe_rf.fit(X_train, y_train, config)
+    pipe_rf.fit(X_train, y_train)
     logger.info('model training successful...')
     
     logger.info('saving the model to ' + config["paths"]["model"] + "...")
@@ -45,11 +42,11 @@ def train(config):
         pk.dump(pipe_rf, file)
     logger.info('model successfully saved')
         
-    if __name__ == "__main__":
-        parser = ArgumentParser()
-        parser.add_argument("--path", "--p", default="params.yaml", dest="path", type=str, required=True)
-        args = parser.parse_args()
-        param_path = args.path
-        
-        config = config_loader(param_path)
-        train(config)
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument("--path", "--p", default="params.yaml", dest="path", type=str, required=True)
+    args = parser.parse_args()
+    param_path = args.path
+    
+    config = config_loader(param_path)
+    train(config)
