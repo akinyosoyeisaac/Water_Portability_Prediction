@@ -16,7 +16,15 @@ stages:
     - data/raw/water_potability.csv
     params:
     - paths
-    - train
     outs:
     - models/model.pk
-  
+  evaluation:
+    cmd: python scr/evalution.py --path=params.yaml
+    deps:
+    - scr/evalution.py
+    params:
+    - paths
+    outs:
+    - report/visual/confusion_matrix.jpg
+    - report/visual/rocauc_curve.jpg
+    - report/metrics/metrics.json

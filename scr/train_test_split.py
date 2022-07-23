@@ -24,7 +24,7 @@ def config_loader(path:str):
 
 def train_test_split(config):    
     
-    logger = get_logger('TRAINING STAGE', log_level=config['loglevel'])
+    logger = get_logger('TRAIN TEST SPLIT', log_level=config['loglevel'])
     
     logger.info('Loading data...')
     df = pd.read_csv(config["paths"]["raw_data"])
