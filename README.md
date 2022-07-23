@@ -38,12 +38,17 @@
 
 ## 🚀 Usage instructions
 
-- 
--
--
--
--
-- .....
+- To work with this project (all code should be run in the root directory)
+- Install all the module required by runing 
+```
+pip install requirement.txt
+```
+- To train and evaluate the model run
+```
+dvc repro
+```
+- Model performance can be inspected by check the <a href="report"> report section </a>
+- Your can also visit the [link](https://akinyosoyeisaac-water-portabili-deploymentwater-pota-app-shb41p.streamlitapp.com/) to see the model in a production environment
 
 ## 📈 Results
 > Confusion Matrix
