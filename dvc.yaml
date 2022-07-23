@@ -1,6 +1,6 @@
 stages:
   train:
-    cmd: python scr/model.py --path=params.yaml
+    cmd: python scr/training.py --path=params.yaml
     deps:
     - scr/model.py
     - data/raw/water_potability.csv
