@@ -1,5 +1,5 @@
 stages:
-  train:
+  training:
     cmd: python scr/training.py --path=params.yaml
     deps:
     - scr/model.py
