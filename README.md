@@ -45,15 +45,6 @@
 -
 - .....
 
-
-## ⬇️ Installation instructions
-- 
--
--
--
--
-- .....
-
 ## 📈 Results
 > Confusion Matrix
 
