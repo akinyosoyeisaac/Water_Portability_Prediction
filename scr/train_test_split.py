@@ -69,6 +69,5 @@ if __name__ == "__main__":
         parser.add_argument("--path", "--p", default="params.yaml", dest="path", type=str, required=True)
         args = parser.parse_args()
         param_path = args.path
-        
         config = config_loader(param_path)
         train_test_split(config)
