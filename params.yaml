@@ -1,8 +1,9 @@
 paths:
-  data: "data/raw/water_potability.csv"
+  raw_data: "data/raw/water_potability.csv"
   model: "models/model.pk"
   test_data: "data/test/test_data.csv"
-  train_data: "data/train/test_data.csv"
+  test_set: "data/test/test-set"
+  train_set: "data/train/test-set.csv"
   confusion_matrix: report/visual/confusion_matrix.jpg
   roc_curve: report/visual/rocauc_curve.jpg
   metrics: report/metrics/metrics.json
@@ -14,4 +15,7 @@ train:
   test_size: 0.2
   imputer: "median"
   n_split: 10
+
+
+
 

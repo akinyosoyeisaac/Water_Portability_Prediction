@@ -1,0 +1,1 @@
+python scr/train_test_split.py --path=params.yaml
