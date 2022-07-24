@@ -60,6 +60,11 @@ dvc repro
  
 <img src="report/visual/rocauc_curve.jpg" width="400" height="400">
 
+> METRICS
+
+<img src="report\visual\metrics.JPG" width="400" height="400">
+
+
 
 
 
