@@ -1,5 +1,6 @@
 paths:
   raw_data: "data/raw/water_potability.csv"
+  processed_data: "data/processed/water_potability.csv"
   model: "models/model.pk"
   test_data: "data/test/test_data.csv"
   test_set: "data/test/test-set"

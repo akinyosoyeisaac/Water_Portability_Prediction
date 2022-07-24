@@ -1,4 +1,13 @@
 stages:
+  feature_engineering:
+    cmd: python scr/feature_engineering.py --path=params.yaml
+    deps:
+    - scr/feature_engineering.py
+    - data/raw/water_potability.csv
+    params:
+    - paths
+    outs:
+    - "data/processed/water_potability.csv"
   train_test_split:
     cmd: python scr/train_test_split.py --path=params.yaml
     deps:

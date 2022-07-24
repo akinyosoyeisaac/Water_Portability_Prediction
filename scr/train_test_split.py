@@ -10,12 +10,12 @@ import shelve
 
 
 
-def imblearn(X_train, y_train):
-    imputer = SimpleImputer(strategy="median")
-    X_train = pd.DataFrame(imputer.fit_transform(X_train), columns=X_train.columns)
-    resample = SMOTE(random_state=234, k_neighbors=10)
-    X_train, y_train = resample.fit_resample(X_train, y_train)
-    return X_train, y_train
+# def imblearn(X_train, y_train):
+#     imputer = SimpleImputer(strategy="median")
+#     X_train = pd.DataFrame(imputer.fit_transform(X_train), columns=X_train.columns)
+#     resample = SMOTE(random_state=234, k_neighbors=10)
+#     X_train, y_train = resample.fit_resample(X_train, y_train)
+#     return X_train, y_train
 
 def config_loader(path:str):
     with open(path) as file:
@@ -27,7 +27,7 @@ def train_test_split(config):
     logger = get_logger('TRAIN TEST SPLIT', log_level=config['loglevel'])
     
     logger.info('Loading data...')
-    df = pd.read_csv(config["paths"]["raw_data"])
+    df = pd.read_csv(config["paths"]["processed_data"])
     logger.info('Data loaded into memory successfully...')
 
     X = df.drop(columns="Potability")
@@ -41,9 +41,9 @@ def train_test_split(config):
         y_train, y_test = y[train_index], y[test_index]
     logger.info('the data has been successfully splitted into train and test data...')
     
-    logger.info('Handling imblance in the train data')
-    X_train, y_train = imblearn(X_train=X_train, y_train=y_train)
-    logger.info('The minority class has been oversampled using SMOTE...')
+    # logger.info('Handling imblance in the train data')
+    # X_train, y_train = imblearn(X_train=X_train, y_train=y_train)
+    # logger.info('The minority class has been oversampled using SMOTE...')
     
     logger.info('The X_test is been save for the for the purpose of test our model in production environment')
     test_df = X_test
