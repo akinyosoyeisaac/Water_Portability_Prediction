@@ -63,13 +63,17 @@ def main():
             metrics = json.load(file)["metrics"]
         st.text(metrics) 
     elif visual == "Visuals":
-        tab1, tab2 = st.tabs(["Confusion Matrix".upper(), "ROCAUC CURVE"])
+        tab1, tab2, tab3 = st.tabs(["Confusion Matrix".upper(), "ROCAUC CURVE", "Feature Importances".upper()])
         with tab1:
             st.subheader("Confusion Matrix Using Randomforest Classifier")
             st.image(config["paths"]["confusion_matrix"])
         with tab2:
             st.subheader("ROCAUC Curve Using Randomforest Classifier")
             st.image(config["paths"]["roc_curve"])
+        with tab3:
+            st.subheader("Feature Importance Using Randomforest Classifier")
+            st.image(config["paths"]["fea_impt"])
+            
             
 def sidebar():
     with st.sidebar:
