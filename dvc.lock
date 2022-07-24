@@ -1,0 +1,57 @@
+schema: '2.0'
+stages:
+  feature_engineering:
+    cmd: python scr/feature_engineering.py --path=params.yaml
+    deps:
+    - path: data/raw/water_potability.csv
+      md5: aafa784ad6c2cd060df038c343956a1d
+      size: 525187
+    - path: scr/feature_engineering.py
+      md5: f4ccbabe411eea7aecc8ed8313235ffc
+      size: 2253
+    params:
+      params.yaml:
+        paths:
+          raw_data: data/raw/water_potability.csv
+          processed_data: data/processed/water_potability.csv
+          model: models/model.pk
+          test_data: data/test/test_data.csv
+          test_set: data/test/test-set
+          train_set: data/train/train-set
+          confusion_matrix: report/visual/confusion_matrix.jpg
+          roc_curve: report/visual/rocauc_curve.jpg
+          metrics: report/metrics/metrics.json
+    outs:
+    - path: data/processed/water_potability.csv
+      md5: 66a0554f43b0f7f152c14a0f8fd87842
+      size: 546721
+  train_test_split:
+    cmd: python scr/train_test_split.py --path=params.yaml
+    deps:
+    - path: data/raw/water_potability.csv
+      md5: aafa784ad6c2cd060df038c343956a1d
+      size: 525187
+    - path: scr/train_test_split.py
+      md5: 0387964e96b26b9e639665f4b8492b11
+      size: 2915
+    params:
+      params.yaml:
+        paths:
+          raw_data: data/raw/water_potability.csv
+          processed_data: data/processed/water_potability.csv
+          model: models/model.pk
+          test_data: data/test/test_data.csv
+          test_set: data/test/test-set
+          train_set: data/train/train-set
+          confusion_matrix: report/visual/confusion_matrix.jpg
+          roc_curve: report/visual/rocauc_curve.jpg
+          metrics: report/metrics/metrics.json
+        train:
+          seeds: 234
+          test_size: 0.2
+          imputer: median
+          n_split: 10
+    outs:
+    - path: data/test/test_data.csv
+      md5: 3bdd47bdc29363e866b7f5891130c528
+      size: 108176
