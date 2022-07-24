@@ -64,7 +64,9 @@ dvc repro
 
 <img src="report\visual\metrics.JPG" width="400" height="400">
 
+> Feature Importance
 
+<img src="report\visual\feature_importance.jpg" width="400" height="400">
 
 
 
