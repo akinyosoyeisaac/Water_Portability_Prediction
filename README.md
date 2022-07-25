@@ -87,3 +87,4 @@ dvc repro
 - [project website(fastapi)](https://water-potability-pred-01.herokuapp.com/docs#/default/prediction_predict_post)
 - [project website(streamlit)](https://akinyosoyeisaac-water-portabili-deploymentwater-pota-app-shb41p.streamlitapp.com/)
 
+water potability
